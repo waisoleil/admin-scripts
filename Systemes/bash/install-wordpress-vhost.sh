@@ -263,7 +263,7 @@ main() {
   	local site_root="$WEB_ROOT/$site_name"
   	local db_name="${site_name//./_}"
   	local db_user="${site_name//./_}admin"
-  	local db_pass="Azertyuiop974+"
+  	local db_pass="Passw0rd"
 
   	# Création du répertoire du site
   	mkdir -p "$site_root"
